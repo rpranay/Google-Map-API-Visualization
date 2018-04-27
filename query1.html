@@ -6,6 +6,23 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   </head>
   <body>
+    <div id="select">
+      <select id="Yearselect">
+        <option value="n">Select Year</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+      </select>
+      <select id="Crimeselect">
+        <option value="n">Select Crime</option>
+        <option value="NARCOTICS">Narcotics</option>
+        <option value="THEFT">Theft</option>
+        <option value="BATTERY">Battery</option>
+        <option value="CRIMINAL DAMAGE">Criminal Damage</option>
+      </select>
+      <button id="go">Filter</button>
+    </div>
     <div id="map"></div>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANfXWy43VXohN5kWRZSh-rDdyWJ0oYQB0&libraries=visualization&callback=initMap">
