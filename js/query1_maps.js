@@ -57,7 +57,7 @@ function query1_callback(results) {
         infolist.append(`<li><b>Crime type</b>: ${row["Crime Type"]}</li>`);
         infolist.append(`<li><b>No of total Crimes</b>: ${row["#Crimes"]}</li>`);
         infolist.append(`<li><b>No of total arrests</b>: ${row["#Arrests"]}</li>`);
-        infolist.append(`<li><b>No of total crimes on premises</b>: ${row["#On Premises:"]}</li>`);
+        infolist.append(`<li><b>No of total crimes on premises</b>: ${row["#On Premises"]}</li>`);
         infolist.append(`<li><b>Has Liquor License</b>: ${row["Has Liquor License"]}</li>`);
         infolist.append(`<li><b>Has Tobacco License</b>: ${row["Has Tobacco License"]}</li>`);
   		 	infowindow.setContent('<div class="infowindow">'+infolist.html()+'</div>');

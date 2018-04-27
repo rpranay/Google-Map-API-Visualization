@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="css/basicStyling.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  </head>
+  <body>
+    <div id="select">
+      <select id="Yearselect">
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+      </select>
+      <select id="Monthselect">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <select id="Crimeselect">
+        <option value="n">Select Crime</option>
+        <option value="NARCOTICS">Narcotics</option>
+        <option value="THEFT">Theft</option>
+        <option value="BATTERY">Battery</option>
+        <option value="CRIMINAL DAMAGE">Criminal Damage</option>
+      </select>
+      <button id="go">Filter</button>
+    </div>
+    <div id="map"></div>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANfXWy43VXohN5kWRZSh-rDdyWJ0oYQB0&libraries=visualization&callback=initMap">
+    </script>
+    <script src="js/query10_maps.js"></script>
+  </body>
+</html>
